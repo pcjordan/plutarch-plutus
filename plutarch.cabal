@@ -69,7 +69,6 @@ common c
     TypeOperators
     TypeSynonymInstances
     ViewPatterns
-    OverloadedRecordDot
 
   ghc-options:
     -Weverything -Wno-unused-do-bind -Wno-missing-kind-signatures
