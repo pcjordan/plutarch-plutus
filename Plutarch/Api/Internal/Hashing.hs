@@ -15,8 +15,8 @@ import Data.ByteArray (convert)
 import Data.ByteString (ByteString)
 import qualified Data.ByteString.Lazy as Lazy
 
-import qualified PlutusLedgerApi.V1 as Plutus
-import qualified PlutusLedgerApi.V1.Scripts as Plutus
+import qualified Plutus.Ledger.Api.V1 as Plutus
+import qualified Plutus.Ledger.Api.V1.Scripts as Plutus
 import qualified PlutusTx.Builtins as PlutusTx
 
 _plutusHashWith :: HashAlgorithm alg => alg -> ByteString -> PlutusTx.BuiltinByteString
