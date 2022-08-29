@@ -54,7 +54,6 @@ common c
     PatternSynonyms
     PolyKinds
     PostfixOperators
-    QualifiedDo
     QuantifiedConstraints
     RankNTypes
     RelaxedPolyRec
